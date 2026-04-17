@@ -18,7 +18,7 @@ const Navbar = () => {
           <a href="#how-it-works" className="text-foreground/70 hover:text-foreground transition-colors text-sm font-medium">How It Works</a>
           <a href="#showcase" className="text-foreground/70 hover:text-foreground transition-colors text-sm font-medium">Showcase</a>
           <a href="#pricing" className="text-foreground/70 hover:text-foreground transition-colors text-sm font-medium">Pricing</a>
-          <Button size="sm" className="gradient-ai text-primary-foreground font-semibold">Book Free Call</Button>
+          <a href="tel:+917054890622"><Button size="sm" className="gradient-ai text-primary-foreground font-semibold">Book Free Call</Button></a>
         </div>
 
         <button className="md:hidden text-foreground" onClick={() => setIsOpen(!isOpen)}>
@@ -32,7 +32,7 @@ const Navbar = () => {
           <a href="#how-it-works" className="text-foreground/70 hover:text-foreground py-2">How It Works</a>
           <a href="#showcase" className="text-foreground/70 hover:text-foreground py-2">Showcase</a>
           <a href="#pricing" className="text-foreground/70 hover:text-foreground py-2">Pricing</a>
-          <Button size="sm" className="gradient-ai text-primary-foreground font-semibold">Book Free Call</Button>
+          <a href="tel:+917054890622"><Button size="sm" className="gradient-ai text-primary-foreground font-semibold">Book Free Call</Button></a>
         </div>
       )}
     </nav>

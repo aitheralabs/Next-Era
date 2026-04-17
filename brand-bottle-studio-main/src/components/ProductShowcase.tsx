@@ -3,6 +3,7 @@ import showcaseWhatsapp from "@/assets/showcase-whatsapp.jpg";
 import showcaseMerchandise from "@/assets/showcase-merchandise.jpg";
 import showcaseGamified from "@/assets/showcase-gamified.jpg";
 import showcaseQr from "@/assets/showcase-qr.jpg";
+import showcaseVending from "@/assets/showcase-vending.jpg";
 import showcaseVideo from "@/assets/showcase-video.mp4.asset.json";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
@@ -13,6 +14,7 @@ const showcaseItems = [
   { img: showcaseMerchandise, title: "Smart Merchandise Marketing", desc: "Custom branded bottles & t-shirts with QR codes driving 3x repeat engagement", tag: "Merchandise" },
   { img: showcaseGamified, title: "Scan & Win Campaign", desc: "Gamified spin-to-win at malls generated 30,000 leads in 1 week", tag: "Gamification" },
   { img: showcaseQr, title: "Smart QR at Cafes", desc: "Dynamic QR campaigns at 500+ cafe locations with real-time lead tracking", tag: "QR Campaigns" },
+  { img: showcaseVending, title: "Chai & Coffee Vending at Events", desc: "Branded chai & coffee vending machines supplied at corporate events, fests & activations — turning every cup into a lead opportunity", tag: "Event Supply" },
 ];
 
 const ProductShowcase = () => {

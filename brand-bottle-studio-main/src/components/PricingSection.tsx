@@ -1,4 +1,4 @@
-import { Check, ArrowRight } from "lucide-react";
+import { Check, ArrowRight, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -27,6 +27,15 @@ const plans = [
     features: ["Everything in Growth", "Hyperlocal Campaigns", "Unlimited Leads", "Brand Activation Events", "AI Lead Scoring Dashboard", "Dedicated Account Manager"],
     popular: false,
   },
+  {
+    name: "Enterprise",
+    price: "Custom",
+    period: "",
+    description: "Tailored solutions for large teams and high-volume operations.",
+    features: ["Everything in Pro", "Custom Integrations", "Multi-location Support", "Enterprise SLA", "White-label Options", "Dedicated Success Team"],
+    popular: false,
+    enterprise: true,
+  },
 ];
 
 const PricingSection = () => {
@@ -42,17 +51,22 @@ const PricingSection = () => {
             Choose a plan that fits your growth goals. No hidden fees.
           </p>
         </div>
-        <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {plans.map((plan, i) => (
             <Card
               key={i}
               className={`border-border bg-card relative transition-all duration-300 ${
                 plan.popular ? "border-primary glow-card scale-[1.03]" : "hover:glow-card"
-              }`}
+              } ${"enterprise" in plan && plan.enterprise ? "border-accent/40" : ""}`}
             >
               {plan.popular && (
                 <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground text-xs font-bold px-4 py-1 rounded-full">
                   Most Popular
+                </span>
+              )}
+              {"enterprise" in plan && plan.enterprise && (
+                <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground text-xs font-bold px-4 py-1 rounded-full">
+                  Enterprise
                 </span>
               )}
               <CardContent className="p-8 space-y-5">
@@ -62,7 +76,7 @@ const PricingSection = () => {
                 </div>
                 <div className="flex items-baseline gap-1">
                   <span className="font-display text-4xl font-bold text-foreground">{plan.price}</span>
-                  <span className="text-muted-foreground text-sm">{plan.period}</span>
+                  {plan.period && <span className="text-muted-foreground text-sm">{plan.period}</span>}
                 </div>
                 <ul className="space-y-2.5">
                   {plan.features.map((f, j) => (
@@ -72,12 +86,18 @@ const PricingSection = () => {
                     </li>
                   ))}
                 </ul>
-                <Button
-                  className={`w-full font-semibold ${plan.popular ? "gradient-ai text-primary-foreground" : ""}`}
-                  variant={plan.popular ? "default" : "outline"}
-                >
-                  Get Started <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+                {"enterprise" in plan && plan.enterprise ? (
+                  <Button className="w-full font-semibold" variant="outline">
+                    <Mail className="mr-2 h-4 w-4" /> Get in Touch
+                  </Button>
+                ) : (
+                  <Button
+                    className={`w-full font-semibold ${plan.popular ? "gradient-ai text-primary-foreground" : ""}`}
+                    variant={plan.popular ? "default" : "outline"}
+                  >
+                    Get Started <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                )}
               </CardContent>
             </Card>
           ))}

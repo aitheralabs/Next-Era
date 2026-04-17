@@ -36,8 +36,8 @@ const Footer = () => {
             <h4 className="font-semibold text-background mb-3 text-sm">Contact</h4>
             <ul className="space-y-2 text-background/60 text-sm">
               <li>hello@nexteragrowth.ai</li>
-              <li>+91 98765 43210</li>
-              <li>Mumbai, India</li>
+              <li>+91 70548 90622</li>
+              <li>Ahmedabad, India</li>
             </ul>
           </div>
         </div>

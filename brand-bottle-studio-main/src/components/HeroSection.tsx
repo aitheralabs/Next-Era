@@ -14,29 +14,33 @@ const HeroSection = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="space-y-5">
             <div className="inline-flex items-center gap-2 bg-accent/10 border border-accent/20 rounded-full px-4 py-1.5 text-sm font-medium text-accent">
-              ✅ Trusted by 500+ Local Businesses Across India
+              Trusted by 500+ Businesses Worldwide
             </div>
             <h1 className="font-display text-4xl md:text-5xl lg:text-[3.4rem] font-bold leading-[1.1] text-foreground">
-              Get 20–50 Local Customers Every Month{" "}
+              Attract More Customers Every Month{" "}
               <span className="text-gradient">Using AI</span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-              We help gyms, clinics & local businesses convert offline traffic into real paying customers using QR campaigns and WhatsApp automation.
+              We help businesses of all sizes convert offline and online traffic into real paying customers using smart campaigns and marketing automation.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 pt-2">
-              <Button size="lg" className="gradient-ai text-primary-foreground font-bold shadow-lg hover:opacity-90 transition-opacity text-base px-8 h-14 text-[15px]">
-                Get Free Demo
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10 font-bold text-base px-8 h-14 text-[15px]">
-                <Phone className="mr-2 h-5 w-5" />
-                Book Free Strategy Call
-              </Button>
+              <a href="https://wa.me/917054890622?text=Hi%2C%20I%20want%20a%20free%20demo%20of%20your%20marketing%20services" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="gradient-ai text-primary-foreground font-bold shadow-lg hover:opacity-90 transition-opacity text-base px-8 h-14 text-[15px] w-full">
+                  Get Free Demo
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </a>
+              <a href="tel:+917054890622">
+                <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10 font-bold text-base px-8 h-14 text-[15px] w-full">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Book Free Strategy Call
+                </Button>
+              </a>
             </div>
             <div className="flex items-center gap-6 pt-2">
               <div>
                 <p className="text-2xl font-bold text-foreground">500+</p>
-                <p className="text-xs text-muted-foreground">Brands Powered</p>
+                <p className="text-xs text-muted-foreground">Businesses Powered</p>
               </div>
               <div className="h-10 w-px bg-border" />
               <div>
