@@ -44,7 +44,7 @@ const HeroSection = () => {
               </div>
               <div className="h-10 w-px bg-border" />
               <div>
-                <p className="text-2xl font-bold text-foreground">5M+</p>
+                <p className="text-2xl font-bold text-foreground">1M+</p>
                 <p className="text-xs text-muted-foreground">Leads Generated</p>
               </div>
               <div className="h-10 w-px bg-border" />

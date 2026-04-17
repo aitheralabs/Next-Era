@@ -87,9 +87,11 @@ const PricingSection = () => {
                   ))}
                 </ul>
                 {"enterprise" in plan && plan.enterprise ? (
-                  <Button className="w-full font-semibold" variant="outline">
-                    <Mail className="mr-2 h-4 w-4" /> Get in Touch
-                  </Button>
+                  <a href="https://wa.me/917054890622?text=Hi%2C%20I%27m%20interested%20in%20your%20Enterprise%20plan" target="_blank" rel="noopener noreferrer" className="block">
+                    <Button className="w-full font-semibold" variant="outline">
+                      <Mail className="mr-2 h-4 w-4" /> Get in Touch
+                    </Button>
+                  </a>
                 ) : (
                   <Button
                     className={`w-full font-semibold ${plan.popular ? "gradient-ai text-primary-foreground" : ""}`}

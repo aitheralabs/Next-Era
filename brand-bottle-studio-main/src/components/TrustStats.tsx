@@ -1,7 +1,7 @@
 import { TrendingUp, BarChart3, Target, Eye } from "lucide-react";
 
 const stats = [
-  { icon: <TrendingUp className="h-7 w-7" />, metric: "120+", label: "Leads Generated in 7 Days" },
+  { icon: <TrendingUp className="h-7 w-7" />, metric: "500+", label: "Campaigns Launched" },
   { icon: <BarChart3 className="h-7 w-7" />, metric: "3X", label: "Customer Engagement" },
   { icon: <Target className="h-7 w-7" />, metric: "40%", label: "Higher Conversion Rate" },
   { icon: <Eye className="h-7 w-7" />, metric: "100%", label: "Trackable Campaigns" },
