@@ -1,4 +1,4 @@
-import { Dumbbell, Stethoscope, Coffee, GraduationCap, Building2 } from "lucide-react";
+import { Dumbbell, Stethoscope, Coffee, GraduationCap, Building2, CalendarDays } from "lucide-react";
 
 const industries = [
   { icon: <Dumbbell className="h-8 w-8" />, name: "Gyms & Fitness" },
@@ -6,6 +6,7 @@ const industries = [
   { icon: <Coffee className="h-8 w-8" />, name: "Cafes & Restaurants" },
   { icon: <GraduationCap className="h-8 w-8" />, name: "Coaching Institutes" },
   { icon: <Building2 className="h-8 w-8" />, name: "Real Estate" },
+  { icon: <CalendarDays className="h-8 w-8" />, name: "Corporate Events" },
 ];
 
 const WhoWeWorkWith = () => {

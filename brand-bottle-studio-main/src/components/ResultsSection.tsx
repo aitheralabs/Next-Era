@@ -4,21 +4,21 @@ import { Card, CardContent } from "@/components/ui/card";
 const results = [
   {
     icon: <TrendingUp className="h-8 w-8" />,
-    metric: "120+",
+    metric: "127",
     label: "Leads in 7 Days",
-    description: "Generated 120+ verified leads for a local gym using QR campaigns at their entrance.",
+    description: "A local gym in Ahmedabad placed our QR at their entrance. 127 verified leads in the first week — without running a single ad.",
   },
   {
     icon: <BarChart3 className="h-8 w-8" />,
-    metric: "3x",
-    label: "Engagement Boost",
-    description: "3x higher engagement with smart QR campaigns at cafe chains vs traditional marketing.",
+    metric: "3.2x",
+    label: "More Engagement",
+    description: "A cafe chain switched from pamphlets to our QR campaigns. Engagement went up 3.2x and they stopped wasting money on print.",
   },
   {
     icon: <Target className="h-8 w-8" />,
-    metric: "40%",
-    label: "Higher Conversion",
-    description: "40% higher lead-to-customer conversion using AI WhatsApp funnels for a coaching institute.",
+    metric: "38%",
+    label: "Lead-to-Customer Rate",
+    description: "A Surat coaching institute used our WhatsApp funnel. 38 out of every 100 leads converted into paid enrollments within 2 weeks.",
   },
 ];
 
@@ -29,8 +29,11 @@ const ResultsSection = () => {
         <div className="text-center mb-10">
           <p className="text-sm font-semibold text-accent uppercase tracking-wider mb-2">Proven Results</p>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground">
-            Real Numbers, <span className="text-gradient">Real Growth</span>
+            Real Numbers, <span className="text-gradient">Real Businesses</span>
           </h2>
+          <p className="mt-3 text-muted-foreground max-w-lg mx-auto">
+            These aren't projections. These are actual results from campaigns we've run.
+          </p>
         </div>
         <div className="grid md:grid-cols-3 gap-6">
           {results.map((r, i) => (

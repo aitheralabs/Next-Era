@@ -1,12 +1,37 @@
-import { QrCode, MessageCircle, Target, Megaphone, Layout } from "lucide-react";
+import { QrCode, MessageCircle, Target, Megaphone, Layout, Coffee } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const services = [
-  { icon: <QrCode className="h-6 w-6" />, title: "QR-Based Lead Generation System", description: "Place smart QR codes at your location and capture leads automatically into your funnel." },
-  { icon: <MessageCircle className="h-6 w-6" />, title: "WhatsApp AI Lead Follow-up", description: "AI chatbot follows up with every lead on WhatsApp — 24/7, no manual effort." },
-  { icon: <Target className="h-6 w-6" />, title: "Hyperlocal Marketing Campaigns", description: "Target customers within 5km of your business for maximum-quality local leads." },
-  { icon: <Megaphone className="h-6 w-6" />, title: "Brand Activation Campaigns", description: "On-ground events at gyms, colleges & malls that drive real sign-ups and engagement." },
-  { icon: <Layout className="h-6 w-6" />, title: "High-Converting Landing Pages & Funnels", description: "Optimized pages that turn visitors into leads with proven conversion frameworks." },
+  {
+    icon: <QrCode className="h-6 w-6" />,
+    title: "QR-Based Lead Generation",
+    description: "Put a QR code at your counter, entrance, or packaging. Every scan captures a lead automatically — no forms, no friction.",
+  },
+  {
+    icon: <MessageCircle className="h-6 w-6" />,
+    title: "WhatsApp AI Follow-up",
+    description: "Every lead gets a WhatsApp message within 60 seconds of scanning — automatically. Your AI handles follow-up while you focus on your business.",
+  },
+  {
+    icon: <Target className="h-6 w-6" />,
+    title: "Hyperlocal Marketing",
+    description: "We target people within 5km of your location who are actively looking for what you offer. No wasted budget on people who'll never visit.",
+  },
+  {
+    icon: <Megaphone className="h-6 w-6" />,
+    title: "Brand Activation Campaigns",
+    description: "On-ground events at gyms, colleges & malls where real people interact with your brand, scan your QR, and become leads on the spot.",
+  },
+  {
+    icon: <Layout className="h-6 w-6" />,
+    title: "Landing Pages & Funnels",
+    description: "Pages built with one goal — converting a visitor into a lead. No bloat, no distraction. Just a clear offer and a form that works.",
+  },
+  {
+    icon: <Coffee className="h-6 w-6" />,
+    title: "Chai & Coffee Vending at Events",
+    description: "Branded chai & coffee vending machines at corporate events, fests & activations — every cup served is a brand impression and a lead opportunity.",
+  },
 ];
 
 const ServicesSection = () => {
@@ -17,10 +42,10 @@ const ServicesSection = () => {
         <div className="text-center mb-10">
           <p className="text-sm font-semibold text-accent uppercase tracking-wider mb-2">What We Do</p>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground">
-            Services That <span className="text-gradient">Get You Customers</span>
+            Six Ways We <span className="text-gradient">Get You Customers</span>
           </h2>
           <p className="mt-3 text-muted-foreground max-w-lg mx-auto">
-            Every service is built to generate real, trackable leads for your business.
+            Each service is designed to bring real, trackable leads — not just traffic that goes nowhere.
           </p>
         </div>
 

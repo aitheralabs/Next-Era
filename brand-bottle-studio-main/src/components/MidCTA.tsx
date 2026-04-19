@@ -12,13 +12,17 @@ const MidCTA = () => {
           Get a proven system that delivers real customers to your business — guaranteed.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button size="lg" variant="secondary" className="font-bold text-base px-8 h-12">
-            <Phone className="mr-2 h-5 w-5" />
-            Book Free Strategy Call
-          </Button>
-          <Button size="lg" className="bg-primary-foreground text-primary font-bold hover:bg-primary-foreground/90 text-base px-8 h-12">
-            Get Free Demo <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+          <a href="tel:+917054890622">
+            <Button size="lg" variant="secondary" className="font-bold text-base px-8 h-12 w-full">
+              <Phone className="mr-2 h-5 w-5" />
+              Book Free Strategy Call
+            </Button>
+          </a>
+          <a href="https://wa.me/917054890622?text=Hi%2C%20I%20want%20a%20free%20demo%20of%20your%20marketing%20services" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="bg-primary-foreground text-primary font-bold hover:bg-primary-foreground/90 text-base px-8 h-12 w-full">
+              Get Free Demo <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </a>
         </div>
       </div>
     </section>

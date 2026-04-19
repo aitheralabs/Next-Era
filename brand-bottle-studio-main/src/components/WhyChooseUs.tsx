@@ -1,10 +1,26 @@
 import { Users, Zap, MapPin, BarChart3 } from "lucide-react";
 
 const reasons = [
-  { icon: <Users className="h-6 w-6" />, title: "Real Customers, Not Vanity Metrics", description: "We focus on leads that convert into paying customers — not just likes and impressions." },
-  { icon: <Zap className="h-6 w-6" />, title: "AI + Offline Strategy", description: "Our unique combo of physical QR campaigns + AI automation gives you an unfair advantage." },
-  { icon: <MapPin className="h-6 w-6" />, title: "Built for Local Businesses", description: "Every campaign is tailored for gyms, clinics, cafes & local service providers." },
-  { icon: <BarChart3 className="h-6 w-6" />, title: "Fully Trackable ROI", description: "Know exactly how many leads each campaign generates — complete transparency." },
+  {
+    icon: <Users className="h-6 w-6" />,
+    title: "We care about paying customers, not follower counts",
+    description: "Likes don't pay rent. We build campaigns that bring people through your door — and track every single one.",
+  },
+  {
+    icon: <Zap className="h-6 w-6" />,
+    title: "QR codes + WhatsApp AI — working while you sleep",
+    description: "A customer scans your QR at 11pm. By 11:01pm they've already received a WhatsApp message from your business. No manual work.",
+  },
+  {
+    icon: <MapPin className="h-6 w-6" />,
+    title: "Built for local Indian businesses, not global brands",
+    description: "Our campaigns are designed for gyms, clinics, cafes, and coaching centres — not Fortune 500 companies with crore-rupee budgets.",
+  },
+  {
+    icon: <BarChart3 className="h-6 w-6" />,
+    title: "You see exactly where every lead comes from",
+    description: "No more guessing which ad worked. Every campaign has a dashboard — you know exactly how many leads each QR or event generated.",
+  },
 ];
 
 const WhyChooseUs = () => {

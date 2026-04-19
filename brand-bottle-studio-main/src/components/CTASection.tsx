@@ -13,13 +13,17 @@ const CTASection = () => {
           Join 500+ businesses already getting leads on autopilot with our AI-powered system.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button size="lg" variant="secondary" className="font-bold text-base px-8 h-14">
-            <Phone className="mr-2 h-5 w-5" />
-            Book Free Strategy Call
-          </Button>
-          <Button size="lg" className="bg-primary-foreground text-primary font-bold hover:bg-primary-foreground/90 text-base px-8 h-14">
-            Start Your Campaign <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+          <a href="tel:+917054890622">
+            <Button size="lg" variant="secondary" className="font-bold text-base px-8 h-14 w-full">
+              <Phone className="mr-2 h-5 w-5" />
+              Book Free Strategy Call
+            </Button>
+          </a>
+          <a href="https://wa.me/917054890622?text=Hi%2C%20I%20want%20to%20start%20a%20campaign%20with%20Brand%20Bottle%20Studio" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="bg-primary-foreground text-primary font-bold hover:bg-primary-foreground/90 text-base px-8 h-14 w-full">
+              Start Your Campaign <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </a>
         </div>
       </div>
     </section>
