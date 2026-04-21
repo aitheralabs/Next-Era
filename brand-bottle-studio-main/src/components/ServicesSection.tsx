@@ -1,16 +1,26 @@
-import { QrCode, MessageCircle, Target, Megaphone, Layout, Coffee } from "lucide-react";
+import { QrCode, Target, Megaphone, Layout, Coffee, MonitorPlay, CreditCard } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const services = [
   {
+    icon: <Coffee className="h-6 w-6" />,
+    title: "Chai & Coffee Vending at Events",
+    description: "Branded chai & coffee vending machines at corporate events, fests & activations — every cup served is a brand impression and a lead opportunity.",
+  },
+  {
+    icon: <MonitorPlay className="h-6 w-6" />,
+    title: "Digital Hoarding at Marketplace",
+    description: "Branded & templated digital hoardings displayed at high-footfall marketplaces — your offer in front of thousands of local buyers every single day.",
+  },
+  {
+    icon: <CreditCard className="h-6 w-6" />,
+    title: "Cards Distribution",
+    description: "Professionally designed visiting & offer cards distributed at targeted local spots — putting your brand directly in the hands of potential customers.",
+  },
+  {
     icon: <QrCode className="h-6 w-6" />,
     title: "QR-Based Lead Generation",
     description: "Put a QR code at your counter, entrance, or packaging. Every scan captures a lead automatically — no forms, no friction.",
-  },
-  {
-    icon: <MessageCircle className="h-6 w-6" />,
-    title: "WhatsApp AI Follow-up",
-    description: "Every lead gets a WhatsApp message within 60 seconds of scanning — automatically. Your AI handles follow-up while you focus on your business.",
   },
   {
     icon: <Target className="h-6 w-6" />,
@@ -21,16 +31,6 @@ const services = [
     icon: <Megaphone className="h-6 w-6" />,
     title: "Brand Activation Campaigns",
     description: "On-ground events at gyms, colleges & malls where real people interact with your brand, scan your QR, and become leads on the spot.",
-  },
-  {
-    icon: <Layout className="h-6 w-6" />,
-    title: "Landing Pages & Funnels",
-    description: "Pages built with one goal — converting a visitor into a lead. No bloat, no distraction. Just a clear offer and a form that works.",
-  },
-  {
-    icon: <Coffee className="h-6 w-6" />,
-    title: "Chai & Coffee Vending at Events",
-    description: "Branded chai & coffee vending machines at corporate events, fests & activations — every cup served is a brand impression and a lead opportunity.",
   },
 ];
 

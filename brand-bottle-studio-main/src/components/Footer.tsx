@@ -40,14 +40,13 @@ const Footer = () => {
             <ul className="space-y-2 text-background/60 text-sm">
               <li><a href="#" className="hover:text-background/90 transition-colors">About Us</a></li>
               <li><a href="#showcase" className="hover:text-background/90 transition-colors">Case Studies</a></li>
-              <li><a href="https://wa.me/917054890622?text=Hi%2C%20I%27m%20interested%20in%20joining%20the%20Brand%20Bottle%20Studio%20team" target="_blank" rel="noopener noreferrer" className="hover:text-background/90 transition-colors">Careers</a></li>
-              <li><a href="tel:+917054890622" className="hover:text-background/90 transition-colors">Contact</a></li>
+<li><a href="tel:+917054890622" className="hover:text-background/90 transition-colors">Contact</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold text-background mb-3 text-sm">Contact</h4>
             <ul className="space-y-2 text-background/60 text-sm">
-              <li><a href="mailto:aitheralabs@gmail.com" className="hover:text-background/90 transition-colors">aitheralabs@gmail.com</a></li>
+              <li><a href="mailto:info@nexteragrowth.in" className="hover:text-background/90 transition-colors">info@nexteragrowth.in</a></li>
               <li><a href="tel:+917054890622" className="hover:text-background/90 transition-colors">+91 70548 90622</a></li>
               <li>Ahmedabad, India</li>
             </ul>
