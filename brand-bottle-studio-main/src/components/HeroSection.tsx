@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import heroImg from "@/assets/hero-marketing.jpg";
 import aiAvatar from "@/assets/ai-avatar.png";
 
-const cities = ["Ahmedabad", "Surat", "Mumbai", "Pune", "Vadodara", "Delhi"];
+const cities = ["Ahmedabad", "Delhi NCR", "Bangalore"];
 
 const HeroSection = () => {
   return (

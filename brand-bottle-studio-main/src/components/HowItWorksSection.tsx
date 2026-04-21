@@ -1,9 +1,9 @@
-import { MapPin, QrCode, MessageCircle, Bot, UserCheck } from "lucide-react";
+import { MapPin, QrCode, MonitorPlay, Bot, UserCheck } from "lucide-react";
 
 const steps = [
   { icon: <MapPin className="h-6 w-6" />, title: "Offline Traffic", description: "A customer walks into your gym, clinic, cafe or event" },
   { icon: <QrCode className="h-6 w-6" />, title: "They Scan a QR", description: "One scan — no app download, no form filling, no friction" },
-  { icon: <MessageCircle className="h-6 w-6" />, title: "WhatsApp Opens", description: "They land directly in your WhatsApp funnel within seconds" },
+  { icon: <MonitorPlay className="h-6 w-6" />, title: "Digital Hoarding Seen", description: "Your brand appears on high-footfall digital hoardings — building instant recall" },
   { icon: <Bot className="h-6 w-6" />, title: "AI Takes Over", description: "The AI bot qualifies, nurtures and follows up 24/7 — automatically" },
   { icon: <UserCheck className="h-6 w-6" />, title: "You Get a Customer", description: "A warm, ready-to-buy customer — without you lifting a finger" },
 ];
