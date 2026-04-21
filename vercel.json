@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd brand-bottle-studio-main && npm run build",
+  "devCommand": "cd brand-bottle-studio-main && npm run dev",
+  "installCommand": "cd brand-bottle-studio-main && npm install",
+  "outputDirectory": "brand-bottle-studio-main/dist"
+}
