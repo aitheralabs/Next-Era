@@ -23,7 +23,7 @@ const HeroSection = () => {
               <span className="text-gradient">Every Month.</span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-              We set up smart QR campaigns, WhatsApp automation, and hyperlocal marketing so your business gets a steady stream of paying customers — without you chasing leads manually.
+              We set up smart QR campaigns, digital hoardings, and hyperlocal marketing so your business gets a steady stream of paying customers — without you chasing leads manually.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 pt-2">
               <a href="https://wa.me/917054890622?text=Hi%2C%20I%20want%20a%20free%20demo%20of%20your%20marketing%20services" target="_blank" rel="noopener noreferrer">

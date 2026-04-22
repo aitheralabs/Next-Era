@@ -1,5 +1,5 @@
 import logo from "@/assets/nextera-logo.png";
-import { Instagram, Linkedin, Youtube } from "lucide-react";
+import { Instagram, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -14,13 +14,10 @@ const Footer = () => {
               AI-powered marketing that turns every interaction into a paying customer.
             </p>
             <div className="flex items-center gap-3">
-              <a href="https://instagram.com/brandbottlestudio" target="_blank" rel="noopener noreferrer" className="h-9 w-9 rounded-lg bg-background/10 hover:bg-background/20 flex items-center justify-center text-background/60 hover:text-background transition-colors">
+              <a href="https://www.instagram.com/nexteragrowth.ai/" target="_blank" rel="noopener noreferrer" className="h-9 w-9 rounded-lg bg-background/10 hover:bg-background/20 flex items-center justify-center text-background/60 hover:text-background transition-colors">
                 <Instagram className="h-4 w-4" />
               </a>
-              <a href="https://linkedin.com/company/brandbottlestudio" target="_blank" rel="noopener noreferrer" className="h-9 w-9 rounded-lg bg-background/10 hover:bg-background/20 flex items-center justify-center text-background/60 hover:text-background transition-colors">
-                <Linkedin className="h-4 w-4" />
-              </a>
-              <a href="https://youtube.com/@brandbottlestudio" target="_blank" rel="noopener noreferrer" className="h-9 w-9 rounded-lg bg-background/10 hover:bg-background/20 flex items-center justify-center text-background/60 hover:text-background transition-colors">
+<a href="https://youtube.com/@brandbottlestudio" target="_blank" rel="noopener noreferrer" className="h-9 w-9 rounded-lg bg-background/10 hover:bg-background/20 flex items-center justify-center text-background/60 hover:text-background transition-colors">
                 <Youtube className="h-4 w-4" />
               </a>
             </div>
@@ -28,7 +25,7 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-background mb-3 text-sm">Services</h4>
             <ul className="space-y-2 text-background/60 text-sm">
-              <li><a href="#services" className="hover:text-background/90 transition-colors">AI WhatsApp Automation</a></li>
+              <li><a href="#services" className="hover:text-background/90 transition-colors">Digital Hoarding</a></li>
               <li><a href="#services" className="hover:text-background/90 transition-colors">Smart QR Campaigns</a></li>
               <li><a href="#services" className="hover:text-background/90 transition-colors">Hyperlocal Marketing</a></li>
               <li><a href="#services" className="hover:text-background/90 transition-colors">Gamified Campaigns</a></li>
